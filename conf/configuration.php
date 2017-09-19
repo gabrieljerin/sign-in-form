@@ -1,8 +1,8 @@
 <?php
 
         const DB_HOST = "localhost";
-        const DB_USER = "root";
-        const DB_PASS = "admin";
-        const DB_NAME = "db_my_demo_site";
+        const DB_USER = "your-username";
+        const DB_PASS = "your-password";
+        const DB_NAME = "your-database";
 ?>
 
