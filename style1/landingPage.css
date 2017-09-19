@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Sep, 2017, 8:31:58 AM
+    Author     : jerin
+*/
+@font-face{
+    font-family: Raleway-Regular;
+    src:url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face{
+    font-family: Oswald-Regular;
+    src:url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background-image: url(../image/l7.jpg);
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content .heading-h1{
+    font-family: Raleway-Regular;
+    color: #011132;
+    font-size: 500%;
+    text-transform: uppercase;
+}
+.btn-cls{
+    border-radius: 9px;
+    font-family: Oswald-Regular;
+    color:#011132;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: 3px solid #011132;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-cls:hover{
+    color: white;
+    border: 3px solid white;
+}
+@media screen and(min-width:320px),(max-width:768px){
+    .content .heading-h1{
+        font-size: 250%;
+        color: white;
+    }
+    .btn-cls{
+        font-size: 110%;
+        padding: 7px 15px;
+        color:white;
+        border: 3px solid white;
+    }
+    .btn-cls:hover{
+        color: #1dcef5;
+        border: 3px solid #1dcef5;
+    }
+}
+@media screen and(min-width:800px),(min-height:1280px){
+    .content .heading-h1{
+        font-size: 500%;
+        color: white;
+    }
+    .btn-cls{
+        font-size: 135%;
+        padding: 10px 20px;
+        color:white;
+        border: 3px solid white;
+    }
+    .btn-cls:hover{
+        color: #1dcef5;
+        border: 3px solid #1dcef5;
+    }
+}

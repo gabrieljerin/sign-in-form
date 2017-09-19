@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2016, 10:21:01 AM
+    Author     : Jerin
+*/
+
+.backgroung-img{
+    background-image: url(../image/bg11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.cls-label{
+    color: white;
+    font-size: 16px;
+}
+fieldset{
+    width: 393px;
+    margin-left: 33%;
+    margin-top: 15%;
+}
+.button-cls{
+    /*position: absolute;*/
+    width: 108px; 
+    float: right;
+}
+legend{
+    color:white;
+}
+.div-cls{
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.div-margin{
+    margin-right: 225px;
+}
+.loader{
+    background-color: #2a2a2a;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.img-cls{
+    margin-left: 42%;
+    margin-top: 12%;
+}
+.heading{
+    margin-left: 43%;
+}
+
+.login-box-cls{
+    background-color: #0009;
+    width: 279px;
+    height: 328px;
+    margin-top: 170px;
+    padding: 10px;
+    padding-top: 17px;
+    border: 1px solid white;
+    box-shadow: 0 0 8px white;
+    /*margin-right: 357px;*/
+}
+.title{
+    color: white;
+    font-size: 50px;
+    padding: 4px;
+}
+.span-icon-cls{
+    color: white !important;
+}
+.p-cls{
+    color: white;
+}
+.circle-div-cls {
+    border-radius: 50%;
+}
+.div-circle {
+    margin-top: -18px;
+    width: 65px;
+    height: 60px;
+    /*background: transparent;*/
+    /*border: 4px solid #0079A1;*/
+}
+.txt-transparent{
+    background-color: transparent;
+    color: white;
+}
+@media screen and(max-width:305px),(max-height:524px){
+    .login-box-cls{
+        margin-top: 137px;
+    }
+}
+@media screen and(max-width:320px),(max-height:480px){
+    .login-box-cls{
+        margin-top: 107px;
+    }
+}
+@media screen and(max-width:480px),(max-height:320px){
+    .login-box-cls{
+        margin-top: 20px;
+    }
+}

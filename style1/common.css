@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 4, 2016, 7:30:54 PM
+    Author     : Jerin
+*/
+.top-space{
+    margin-top: 10px;
+}
+.top-space-search-cls{
+    margin-top: 23px;
+}
+.txt-flat{
+    border-radius: 0;
+}
+.btn.btn-flat{
+    border-radius: 0; 
+}
+.td-cls-style{
+    width:264px;
+}
+.style-btn-cls{
+    background-color: #2a2a2a !important;
+    border-color: transparent !important;
+}
+.style-btn-cls:hover{
+    background-color: #B5B6B7 !important;
+    color: #2a2a2a;
+}
+.modal-close-cls{
+    margin-left: 827px;
+    height: 30px;
+    position: absolute;
+}
+.modal-close-cls:hover{
+    cursor: pointer;
+    cursor: hand;
+    color:black;
+}
+.lgn-cls{
+    color: #5d68e6;
+    border-bottom-color: thistle;
+}
+.botton-cls{
+    width:87px;
+}
+.fa-1x{
+    top: 7px !important;
+    font-size: 19px !important;
+}
+.btn-save-changes{
+    width:153px;
+}
+.modal-close{
+    color:red;
+}
+.modal-align{
+    margin-top: 189px;
+}
+.confirm-modal-bg{
+    background-color: #0079A1 !important;
+}
+.bootbox-body{
+    color: white !important;
+}
+.table-view-details{
+    text-align: center;
+}
+.thead-cls{
+    color: #fff;
+    background-color: #2a2a2a;
+}
+.span-collapse-cls{
+    color: white;
+    float: right;
+}
+.span-collapse-cls:hover{
+    cursor: pointer; 
+    cursor: hand;
+}
+.span-edit-cls{
+    color: #1BAE0C;
+}
+.span-edit-cls:hover{
+    cursor: pointer; 
+    cursor: hand;
+    color: black;
+    font-size: 18px;
+}
+.span-margin-cls{
+    margin-left: 8px;
+}
+.span-delete-cls{
+    color: #e40303;
+}
+.container-cls{
+    background-color: white;
+    border: solid #2a2a2a thin;
+    margin-top: -2px;
+}
+.td-lbl-cls{
+    color: #2a2a2a;
+    font-size: 15px;
+}
+.calendar.right{
+    margin-left: 45px !important;
+}
+.span-calendar-style{
+    color: #2a2a2a;
+    font-size: 21px;
+}
+.body-style{
+    background-color: #E0DEDD;
+}
+.progress-cls{
+    display: none;
+    position: absolute;
+    width: 264px;
+    margin-top: 1px;
+    height: 12px;
+}
+.progress-span-cls{
+    display: none;
+    margin-top: -2px;
+    position: absolute;
+    margin-left: 271px;
+}
+.close-cls{
+    position: absolute;
+    margin-left: 433px;
+    margin-top: -54px;
+    cursor: pointer;
+    cursor: hand;
+    height: 37px;
+}
+.ui-dialog{
+    top: 59px !important;
+}
+.panel-header-cls{
+    width: 100%;
+}
+.panel-style-cls{
+    background-color: #2a2a2a  !important;
+}
+.display-none-cls{
+    display: none;
+}
+.panel-heading-txt{
+    color: white;
+}
+.panel-footer-cls{
+    background-color: transparent;
+    margin-bottom: 18px;
+}
+.panel-btn-position{
+    float: right;
+    margin-bottom: 7px;
+}
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+.btn-cancel{
+    width:103px;
+}
+.master-add-cls{
+    margin-bottom: 20px; 
+}
+.provide-error-cls{
+    border-color: red;
+    box-shadow: 0 0 8px #FF0202;
+}
+.popover{
+    z-index: 1000 !important;
+    background-color: #D43F3A !important;
+}
+.popover-title{
+    color:white !important;
+    background-color: #D43F3A !important;
+}
+.popover-content{
+    color:white !important;
+    background-color: #D43F3A !important;
+}
+.arrow{
+    border-right-color: #D43F3A !important;
+}
+.panel-body{
+    background-color: #E0DEDD !important;
+}
+.login-btn-style{
+    background-color: #0079A1 !important;
+    color:white;
+}
+.login-btn-style:hover{
+    background-color: #0C618F !important;
+}

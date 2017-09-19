@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Sep, 2017, 12:04:54 PM
+    Author     : jerin
+*/
+.cookies-wrapper{
+    background-color: #0009;
+    width: 279px;
+    height: 279px;
+    margin-top: 170px;
+    padding: 10px;
+    padding-top: 17px;
+    border: 1px solid white;
+    box-shadow: 0 0 8px white;
+    overflow-y:scroll;
+    overflow:auto;
+}
+.cookies-holder{
+    background-color: #353535;
+    width: 247px;
+    height: 37px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    line-height: 33px;
+    margin-bottom: 1em;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.cookies-container{
+    width: 216px;
+    float: left;
+    text-align: left;
+}
+.cookies-holder:hover{
+    background-color: #F0F0F0;
+    color: #353535;
+    border-bottom: 2px solid #D43F3A;
+    border-top: 2px solid #D43F3A;
+}
+.cookie-close-cls{
+    margin-right: 13px;
+    margin-top: 5px;
+}
