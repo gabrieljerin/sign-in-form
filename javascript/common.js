@@ -140,42 +140,7 @@ function getQueryString(name, url)
         return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-function datePicker(dom)
-{
-    $(dom).datetimepicker({
-        format: "dd-mm-yyyy",
-        autoclose: true,
-        todayBtn: true,
-        minView: 2,
-        pickerPosition: "bottom-left"
-    });
-}
-function dateTimePicker(dom)
-{
-    $(dom).datetimepicker({
-        format: "dd-mm-yyyy",
-        autoclose: true,
-        todayBtn: true,
-        pickerPosition: "bottom-left"
-    });
-}
-function openJqueryDialog(dom, data, duration, showEffect, hideEffect, width)
-{
-    $(dom).dialog({
-        autoOpen: false,
-        show: {
-            effect: showEffect,
-            duration: duration
-        },
-        hide: {
-            effect: hideEffect,
-            duration: duration
-        },
-        width: width,
-    });
-    $(dom).html(data);
-    $(dom).dialog('open');
-}
+
 function changeHtmlText(dom, htmlStr)
 {
     $(dom).html(htmlStr);
@@ -196,22 +161,6 @@ function getLastTrFirstTd_value(table)
 }
 //-----------------------Jquery Extension-----------------------//
 
-jQuery.fn.DateRangePicker = function ()
-{
-    $(this).daterangepicker({
-        autoUpdateInput: false,
-        locale: {
-            cancelLabel: 'Clear',
-        }
-    });
-    $(this).on('apply.daterangepicker', function (ev, picker) {
-        $(this).val(picker.startDate.format('DD-MM-YYYY') + ' - ' + picker.endDate.format('DD-MM-YYYY'));
-    });
-
-    $(this).on('cancel.daterangepicker', function (ev, picker) {
-        $(this).val('');
-    });
-}
 jQuery.fn.AcceptNumericOnly = function ()
 {
     $(this).keypress(function (e)
@@ -249,7 +198,7 @@ jQuery.fn.ReadOnly = function ()
 {
     $(this).attr("readonly", true);
 };
-jQuery.fn.ReadAndEdit = function ()
+jQuery.fn.RemoveReadOnly = function ()
 {
     $(this).attr("readonly", false);
 };
@@ -266,21 +215,5 @@ jQuery.fn.PreventCutCopyPaste = function ()
     $(this).bind("cut copy paste", function (e) {
         e.preventDefault();
     });
-};
-jQuery.fn.ProvideError = function (data)
-{
-    if (data == "Email" || data == "email")
-    {
-        $(this).val("");
-        $(this).attr("placeholder", "Please Enter Valid Email");
-    } else
-    {
-        $(this).attr("placeholder", "Please Enter Data");
-    }
-    $(this).addClass("provide-error-cls");
-};
-jQuery.fn.ProvideErrorRemove = function ()
-{
-    $(this).removeClass("provide-error-cls");
 };
 //------------------------END-------------------------//

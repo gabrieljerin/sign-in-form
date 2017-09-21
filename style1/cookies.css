@@ -41,6 +41,7 @@ and open the template in the editor.
     color: #353535;
     border-bottom: 2px solid #D43F3A;
     border-top: 2px solid #D43F3A;
+    transition: background-color 0.5s ease-out;
 }
 .cookie-close-cls{
     margin-right: 13px;
